@@ -1,19 +1,45 @@
 # 🤖 LinkedIn Automation Bot
 
-Automate your LinkedIn outreach for job/internship applications.
+A powerful Python-based LinkedIn automation tool for job seekers and professionals. Automate your LinkedIn outreach, track connections, and send personalized messages at scale.
 
-## Features
+## 📋 Overview
+
+This bot helps you:
+- **Find potential contacts** at target companies using SerpAPI + Google Search
+- **Send connection requests** automatically to recruiters, hiring managers, and professionals
+- **Track all pending requests** in a SQLite database
+- **Detect when connections accept** using smart notification/connection page scanning
+- **Send personalized messages** with automatic name and gender-based salutations (Sir/Ma'am)
+- **Run in background** with auto-scheduler that checks every 30 minutes
+
+### 🎯 Use Cases
+- Job seekers reaching out to recruiters and hiring managers
+- Students connecting with alumni at target companies
+- Professionals expanding their network in specific industries
+- Anyone doing targeted LinkedIn outreach at scale
+
+### 🛠️ Tech Stack
+- **Python 3.8+** - Core language
+- **Selenium WebDriver** - Browser automation with anti-detection
+- **SQLite** - Local database for tracking contacts and messages
+- **SerpAPI** - Google search for finding LinkedIn profiles
+- **Gemini API** (optional) - AI-powered profile analysis
+
+## ✨ Features
 
 ✅ **Send Connection Requests** - Automatically connect with recruiters (without notes)  
 ✅ **Track Pending Requests** - Database tracks all sent requests  
-✅ **Detect Accepted Connections** - Automatically checks who accepted  
+✅ **Smart Accept Detection** - Checks notifications & connections page (not each profile!)  
 ✅ **Send Personalized Messages** - Auto-sends your message with their name & Sir/Ma'am  
+✅ **Research Agent** - Find 10 best contacts per company using Google/SerpAPI  
 ✅ **Prevent Duplicates** - Never sends duplicate requests or messages  
 ✅ **Gender Detection** - Automatically determines Sir/Ma'am from name  
-✅ **Rate Limiting** - Prevents account restrictions  
+✅ **Rate Limiting** - Prevents account restrictions (25 requests/day, 50 messages/day)  
 ✅ **Human-like Behavior** - Random delays between actions  
+✅ **Background Scheduler** - Runs every 30 minutes automatically  
+✅ **Session Persistence** - Stays logged in using Chrome profile  
 
-## Setup
+## 🚀 Setup
 
 ### 1. Install Python Dependencies
 ```bash
