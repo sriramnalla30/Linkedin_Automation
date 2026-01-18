@@ -1,0 +1,49 @@
+# Credentials - NEVER commit these
+config.py
+
+# Database
+*.db
+linkedin_automation.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Logs
+*.log
+automation_log.txt
+logs/
+
+# Chrome profile (contains session data)
+chrome_linkedin_profile/
+
+# Chrome driver
+chromedriver.exe
+chromedriver
+
+# Screenshots (for debugging)
+screenshots/
+
+# IDE
+.vscode/
+.idea/
+
+# CSV files with contact data
+*.csv
+
+# Research output files
+research_*.txt
+
+# Temporary/debug files
+temp_*.py
+fix_*.py
+force_*.py
+debug_*.py
+check_db.py
+verify_connections.py

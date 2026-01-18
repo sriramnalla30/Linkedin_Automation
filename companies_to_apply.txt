@@ -1,0 +1,17 @@
+TrueFoundry - MLOps platform (Kubernetes, GPU orchestration) | Reputation: 8.5/10
+
+SuperAGI - Open-source agent infrastructure, LAM + tools | Reputation: 8.4/10
+
+Postman - Postbot (API testing/docs), massive user base | Reputation: 8.3/10
+
+Icertis - ExploreAI (contract intelligence with GenAI) | Reputation: 8.2/10
+
+HighRadius - Autonomous Finance (180+ agents for CFO office) | Reputation: 8.1/10
+
+Tiger Analytics - AWS/Databricks partnership, agentic AI solutions | Reputation: 8.0/10
+
+Tredence - Supply chain control towers with GenAI optimization | Reputation: 7.9/10
+
+Zipy.ai - Self-healing agents for debugging and observability | Reputation: 7.7/10
+
+Soroco - Work Graph, privacy-preserving process mining | Reputation: 7.6/10
