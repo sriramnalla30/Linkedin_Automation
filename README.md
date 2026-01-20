@@ -20,20 +20,20 @@ This automation tool helps job seekers and professionals efficiently expand thei
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│                         LINKEDIN OUTREACH AUTOMATION                         │
+│                         LINKEDIN OUTREACH AUTOMATION                        │
 ├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
+│                                                                             │
 │   📋 STEP 1: COMPANY RESEARCH                                               │
 │   ┌──────────────────────────────────────────────────────────────────┐      │
 │   │  Input: List of target companies (e.g., Google, Microsoft...)    │      │
 │   │  Output: 10 best contacts per company                            │      │
-│   │                                                                   │      │
-│   │  Who we find:                                                     │      │
+│   │                                                                  │      │
+│   │  Who we find:                                                    │      │
 │   │  • 🎯 Hiring Managers (AI/ML, Engineering leads)                 │      │
 │   │  • 👔 HR & Talent Acquisition professionals                      │      │
 │   │  • 🎓 Alumni from your college working at the company            │      │
 │   └──────────────────────────────────────────────────────────────────┘      │
-│                              ⬇️                                              │
+│                              ⬇️                                             │
 │   📤 STEP 2: SEND CONNECTION REQUESTS                                       │
 │   ┌──────────────────────────────────────────────────────────────────┐      │
 │   │  • Automatically visits each LinkedIn profile                    │      │
@@ -41,7 +41,7 @@ This automation tool helps job seekers and professionals efficiently expand thei
 │   │  • Tracks all pending requests in database                       │      │
 │   │  • Rate limited: 25 requests/day to avoid restrictions           │      │
 │   └──────────────────────────────────────────────────────────────────┘      │
-│                              ⬇️                                              │
+│                              ⬇️                                             │
 │   🔍 STEP 3: SMART ACCEPTANCE DETECTION                                     │
 │   ┌──────────────────────────────────────────────────────────────────┐      │
 │   │  Instead of checking each profile (slow & suspicious), we:       │      │
@@ -50,17 +50,17 @@ This automation tool helps job seekers and professionals efficiently expand thei
 │   │  • Verify by checking if they're now "1st degree" connection     │      │
 │   │  • Runs automatically every 30 minutes in background             │      │
 │   └──────────────────────────────────────────────────────────────────┘      │
-│                              ⬇️                                              │
+│                              ⬇️                                             │
 │   💬 STEP 4: SEND PERSONALIZED MESSAGES                                     │
 │   ┌──────────────────────────────────────────────────────────────────┐      │
-│   │  When someone accepts:                                            │      │
-│   │  • Opens their profile                                            │      │
+│   │  When someone accepts:                                           │      │
+│   │  • Opens their profile                                           │      │
 │   │  • Detects gender for proper salutation (Sir/Ma'am)              │      │
 │   │  • Checks if working professional (skips students)               │      │
 │   │  • Sends personalized message with their name                    │      │
 │   │  • Records in database to prevent duplicates                     │      │
 │   └──────────────────────────────────────────────────────────────────┘      │
-│                                                                              │
+│                                                                             │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -343,7 +343,3 @@ If this project helped you, please give it a ⭐ on GitHub!
 [![GitHub stars](https://img.shields.io/github/stars/sriramnalla30/Linkedin_Automation?style=social)](https://github.com/sriramnalla30/Linkedin_Automation)
 
 ---
-
-## 📄 License
-
-MIT License - Feel free to use and modify for your needs.
